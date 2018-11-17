@@ -1,0 +1,60 @@
+@charset "UTF-8";
+html, body { width: 100%; height: 100%; }
+
+html { font-size: 125%; }
+
+body { margin: 0; background: #fff; padding: 0; }
+
+@media only screen and (min-width: 320px) { html { font-size: 106.66666667% !important; } }
+@media only screen and (min-width: 360px) { html { font-size: 120% !important; } }
+@media only screen and (min-width: 375px) { html { font-size: 125% !important; } }
+@media only screen and (min-width: 414px) { html { font-size: 138% !important; } }
+@media only screen and (min-width: 480px) { html { font-size: 160% !important; } }
+@media only screen and (min-width: 560px) { html { font-size: 186.66666667% !important; } }
+@media only screen and (min-width: 640px) { html { font-size: 213.33333334% !important; } }
+@media only screen and (min-width: 768px) { html { font-size: 256% !important; } }
+@media only screen and (min-width: 1024px) { html { font-size: 341.33333334% !important; } }
+@media only screen and (min-width: 1080px) { html { font-size: 360% !important; } }
+@media only screen and (min-width: 1200px) { html { font-size: 400% !important; } }
+@media only screen and (min-width: 1280px) { html { font-size: 426.66666667% !important; } }
+@media only screen and (min-width: 1366px) { html { font-size: 455.33333334% !important; } }
+@media only screen and (min-width: 1440px) { html { font-size: 480% !important; } }
+@media only screen and (min-width: 1920px) { html { font-size: 640% !important; } }
+a, a:hover { text-decoration: none; }
+
+button, p, ul, ol, dl, dt, dd, h1, h2, h3, h4, h5, input { margin: 0; padding: 0; }
+
+div, ul, li, span, input, textarea { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+* { -webkit-tap-highlight-color: transparent; }
+
+* { -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+li { list-style: none; }
+
+input, textarea { -webkit-user-select: auto; /*webkit浏览器*/ }
+
+.wrapper { width: 100%; height: 100%; }
+
+* { -webkit-tap-highlight-color: transparent; }
+
+/**
+float
+**/
+.fl { float: left; }
+
+.fr { float: right; }
+
+.tl { text-align: left; }
+
+.hide { display: none; }
+
+.tc { text-align: center; }
+
+.tr { text-align: right; }
+
+.ub { position: relative; display: -moz-box; display: -webkit-box; display: flex; width: 100%; height: 100%; }
+
+.ub-v { -webkit-box-orient: vertical; box-orient: vertical; }
+
+.ub-f1 { -webkit-box-flex: 1; box-flex: 1; }
